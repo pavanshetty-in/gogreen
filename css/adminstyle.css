@@ -1,0 +1,52 @@
+@font-face
+{
+  
+  src: url(../fonts/Alegreya_Sans_SC/AlegreyaSansSC-BoldItalic.ttf);
+  font-family: Ale;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  th{
+    background-color:#9BD770;
+    text-align: left;
+    padding: 16px;
+  }
+  
+   td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #EBF7E3;
+  }
+  h2{
+      font-family: Ale;
+      background-color: #4CAF50;
+      color:white;
+      
+      text-align: center;
+      padding: 10px;
+      
+  }
+  body{
+      margin: 0;
+  }
+ 
+  .backbutton
+{
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 14px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  float: left;
+  position: fixed;
+  top: 35px;
+}
