@@ -1,0 +1,70 @@
+@font-face
+{
+  
+  src: url(../fonts/Indie_Flower/IndieFlower-Regular.ttf);
+  font-family: indie;
+}
+@font-face
+{
+  
+  src: url(../fonts/Alegreya_Sans_SC/AlegreyaSansSC-BoldItalic.ttf);
+  font-family: Ale;
+}
+p
+{
+  font-family: indie;
+  font-size: 30px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 21%;
+    margin: 30px;
+    float: left;
+
+}
+.card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0,0.2)
+}
+.container
+{
+    padding: 2px 16px;
+}
+h5
+{
+    font-family: Ale;
+    text-align: center;
+    color: green;
+}
+h2
+{
+    font-family: Ale;
+    text-align: center;
+    color: rgb(74, 163, 51);
+}
+.headding
+{
+    background-color: aqua;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.backbutton
+{
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 14px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  float: left;
+  position: fixed;
+  top: 25px;
+}
+body
+{
+    margin: 0;
+}
